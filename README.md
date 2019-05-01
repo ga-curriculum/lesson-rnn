@@ -21,7 +21,7 @@
 
 I. **Intro to RNNs** (30 minutes total)
 - What types of datasets are ideal for RNN models
-- How `keras`'s `TimeseriesGenerator` prepares your sequence data for RNN models
+- How `TimeseriesGenerator` prepares your sequence data for modeling
 - Overview of RNN architecture
 - The shortcomings of early RNN models
 - How LSTM/GRU networks solve the problem of vanishing gradients
