@@ -4,8 +4,8 @@
 
 | Topic | Description | Link |
 | --- | --- | --- |
-| Intro to RNNs | Slide Deck | [Link](./rnn.pdf)
-| Coding Example | RNN walkthrough | [Link](./starter-code.ipynb)|
+| Intro to RNNs | Slide Deck | [Link](./rnns.pdf)
+| Coding Example | RNN walkthrough | [Link](./rnns-blank.ipynb)|
 
 ## Learning Objectives
 
@@ -21,7 +21,7 @@
 
 I. **Intro to RNNs** (30 minutes total)
 - What types of datasets are ideal for RNN models
-- How `TimeseriesGenerator` prepares your sequence data for modeling
+- How `timeseries_data_from_array` prepares your sequence data for modeling
 - Overview of RNN architecture
 - The shortcomings of early RNN models
 - How LSTM/GRU networks solve the problem of vanishing gradients
@@ -29,7 +29,7 @@ I. **Intro to RNNs** (30 minutes total)
 II. **RNN walkthrough** (60 minutes total)
 - Load in AAPL stock prices + SEC filings
 - Train/test split for time series data
-- Use `TimeseriesGenerator` to prep our data for modeling
+- Use `timeseries_data_from_array` to prep our data for modeling
 - Design a basic RNN network using GRU layers
 
 ## OPTIONAL: Resources for Practice and Learning
